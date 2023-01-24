@@ -22,7 +22,7 @@
 
     <body class="body">
         <header class="header">
-            <a class="header-logo" title="torna alla pagina iniziale" role="button" href="index.html">
+            <a class="header-logo" title="torna alla pagina iniziale" aria-label="home page" role="button" href="index.html">
                 <picture>
                     <img class="header-logo__img" src="img/logo.png" title="logo dell'hotel" alt="logo de Il Parco sul Mare Resort & Spa">
                 </picture>
@@ -31,21 +31,21 @@
                 <div title="seleziona la lingua" class="header-lingue__text">Seleziona lingua:</div>
                 <ul class="header-lingue-list">
                     <li class="header-lingue-list-item">
-                        <a title="vai al sito in lingua italiana" role="button" href="#">
+                        <a title="vai al sito in lingua italiana" aria-label="lingua italiana" role="button" href="#">
                             <picture>
                                 <img class="header-lingue-list-item__img" src="img/ita.png" alt="italiano" title="bandierina scelta lingua italiano">
                             </picture>
                         </a>
                     </li>
                     <li class="header-lingue-list-item">
-                        <a title="go to the website in english" role="button" href="#">
+                        <a title="go to the website in english" aria-label="lingua inglese" role="button" href="#">
                             <picture>
                                 <img class="header-lingue-list-item__img" src="img/eng.png" alt="inglese" title="bandierina scelta lingua inglese">
                             </picture>
                         </a>
                     </li>
                     <li class="header-lingue-list-item">
-                        <a title="gehen Sie zur deutschsprachigen Seite" role="button" href="#">
+                        <a title="gehen Sie zur deutschsprachigen Seite" aria-label="lingua tedesca" role="button" href="#">
                             <picture>
                                 <img class="header-lingue-list-item__img" src="img/deu.png" alt="tedesco" title="bandierina scelta lingua tedesco">
                             </picture>
@@ -56,24 +56,24 @@
 
         </header>
 
-        <div class="hamburger-menu" role="button">
+        <div class="hamburger-menu" aria-label="apri menu" role="button">
             <div class="hamburger-menu-bar"></div>
             <div class="hamburger-menu-bar"></div>
             <div class="hamburger-menu-bar"></div>
         </div>
         
         <nav class="menu">
-            <div class="menu-container" role="navigation">
-                <ol class="menu-container-list" role="menu" aria-label="Main Navigation">
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina iniziale" class="menu-container-list-item__link" target="_self" href="#">Home</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina resort" class="menu-container-list-item__link" target="_self" href="#">Resort</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina servizi" class="menu-container-list-item__link" target="_self" href="#">Servizi</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina camere e suites" class="menu-container-list-item__link" target="_self" href="#">Camere e Suites</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina spa" class="menu-container-list-item__link" target="_self" href="#">Spa</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina meeting" class="menu-container-list-item__link" target="_self" href="#">Meeting</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina dove siamo" class="menu-container-list-item__link" target="_self" href="#">Dove siamo</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina contatti" class="menu-container-list-item__link" target="_self" href="#">Contatti</a></li>
-                    <li role="menuitem" class="menu-container-list-item"><a title="vai alla pagina per prenotare" class="menu-container-list-item__link" target="_self" href="#">Prenota</a></li>
+            <div class="menu-container" aria-label="navigazione" role="navigation">
+                <ol class="menu-container-list" aria-label="menu" role="menu" aria-label="Main Navigation">
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina iniziale" class="menu-container-list-item__link" target="_self" href="#">Home</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina resort" class="menu-container-list-item__link" target="_self" href="#">Resort</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina servizi" class="menu-container-list-item__link" target="_self" href="#">Servizi</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina camere e suites" class="menu-container-list-item__link" target="_self" href="#">Camere e Suites</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina spa" class="menu-container-list-item__link" target="_self" href="#">Spa</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina meeting" class="menu-container-list-item__link" target="_self" href="#">Meeting</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina dove siamo" class="menu-container-list-item__link" target="_self" href="#">Dove siamo</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina contatti" class="menu-container-list-item__link" target="_self" href="#">Contatti</a></li>
+                    <li aria-label="voce di menu" role="menuitem" class="menu-container-list-item"><a title="vai alla pagina per prenotare" class="menu-container-list-item__link" target="_self" href="#">Prenota</a></li>
                 </ol>
             </div>
         </nav>
@@ -84,13 +84,13 @@
                     <img src="img/foto-top.jpg" class="top-photo__img img" alt="Foto il Parco sul Mare Resort & Spa" title="Foto dell'esterno della struttura">
                 </picture>
             </div>
-            <div class="top__more" role="button">  
+            <div class="top__more" aria-hidden="true">  
                     
                 <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z"/></svg>
             </div>
         </div> 
 
-        <div class="main" role="main">
+        <div class="main" role="main" aria-label="contenuto">
             <section class="content">
 
                 <!-- TITOLO -->
@@ -114,7 +114,7 @@
                                     Il Parco sul Mare è il paradiso per chi, come te, vuole staccare la spina dal caos quotidiano e riposare realmente!
                                 </p>
                             </div>
-                            <a title="vai alla pagina resort" href="#" role="button" class="btn content-box-text-cont__cta">Scopri il resort</a>
+                            <a title="vai alla pagina resort" href="#" aria-label="vai al resort" role="button" class="btn content-box-text-cont__cta">Scopri il resort</a>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             <img src="img/servizi.jpg" class="content-full-photo__img img" alt="Foto servizi" title="Foto dell'esterno del resort con piscina">
                         </picture>
                     </div>
-                    <a title="vai alla pagina servizi" href="#" role="button" class="btn content-full__cta">Scopri tutti i servizi</a>
+                    <a title="vai alla pagina servizi" href="#" aria-label="vai ai servizi" role="button" class="btn content-full__cta">Scopri tutti i servizi</a>
                 </div>
 
                 <!-- BOX DOPPI -->
@@ -147,7 +147,7 @@
                                         Rilassati nel nostro solarium, realmente ampio e vista colline.. in una parentesi ideale per chi dopo lo stress del lavoro e della città ha proprio bisogno di una pausa indisturbato..
                                     </p>
                                 </div>
-                                <a title="vai alla pagina piscina" href="#" role="button" class="btn content-double-box-text-cont__cta">Scopri la piscina</a>
+                                <a title="vai alla pagina piscina" href="#" aria-label="vai alla piscina" role="button" class="btn content-double-box-text-cont__cta">Scopri la piscina</a>
                             </div>
                             
                         </div>
@@ -167,7 +167,7 @@
                                         Il luogo ideale dove ascoltare se stessi, il proprio partner, lasciandosi coccolare e curare da mani esperte che hanno a cuore il benessere e il relax degli ospiti.
                                     </p>
                                 </div>
-                                <a title="vai alla pagina spa" href="#" role="button" class="btn content-double-box-text-cont__cta">Scopri la spa</a>
+                                <a title="vai alla pagina spa" href="#" aria-label="vai alla spa" role="button" class="btn content-double-box-text-cont__cta">Scopri la spa</a>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                             <img src="img/camere.jpg" class="content-full-photo__img img" alt="Foto camere" title="Foto di una camera del resort">
                         </picture>
                     </div>
-                    <a title="vai alla pagina camere e suites" href="#" role="button" class="btn content-full__cta">Scopri tutte le camere</a>
+                    <a title="vai alla pagina camere e suites" href="#" aria-label="vai alle camere" role="button" class="btn content-full__cta">Scopri tutte le camere</a>
                 </div>
 
                 <!-- BOX DOPPI -->
@@ -201,7 +201,7 @@
                                         Le nostre sale, diversificate per grandezza e disposizione, sono a completa disposizione per l'organizzazione di convegni, per colazioni di lavoro, per incontri d'affari e conferenze stampa.
                                     </p>
                                 </div>
-                                <a title="vai alla pagina meeting" href="#" role="button" class="btn content-double-box-text-cont__cta">Scopri le sale meeting</a>
+                                <a title="vai alla pagina meeting" href="#" aria-label="vai alle sale meeting" role="button" class="btn content-double-box-text-cont__cta">Scopri le sale meeting</a>
                             </div>
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                                         Scopri il nostro ristorante con prodotti del territorio e vini selezionati per farti scoprire l’Abruzzo e la nostra cucina tradizionale. 
                                     </p>
                                 </div>
-                                <a title="vai alla pagina ristorante" href="#" role="button" class="btn content-double-box-text-cont__cta">Scopri il ristorante</a>
+                                <a title="vai alla pagina ristorante" href="#" aria-label="vai al ristorante" role="button" class="btn content-double-box-text-cont__cta">Scopri il ristorante</a>
                             </div>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
                             </div>
-                            <a title="vai alla pagina servizi" href="#" role="button" class="btn content-box-text-cont__cta">Scopri i servizi accessibili</a>
+                            <a title="vai alla pagina servizi" href="#" aria-label="vai ai servizi accessibili" role="button" class="btn content-box-text-cont__cta">Scopri i servizi accessibili</a>
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@
                                         Il Tempo per se stessi è il miglior Regalo che si possa fare..
                                     </p>
                                 </div>
-                                <a title="vai all'offerta Regala la spa" href="#" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                                <a title="vai all'offerta Regala la spa" href="#" aria-label="vai all'offerta Regala la spa" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
                             </div>
                         </li>
                         <li class="content-offers-list-item">
@@ -272,7 +272,7 @@
                                         Exclusive Room – Il Regalo n.1 per Coppie!
                                     </p>
                                 </div>
-                                <a title="vai all'offerta Exclusive room" href="#" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                                <a title="vai all'offerta Exclusive room" href="#" aria-label="vai all'offerta Exclusive room" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
                             </div>
                         </li>
                         <li class="content-offers-list-item">
@@ -283,11 +283,11 @@
                                         Special promo
                                     </p>
                                 </div>
-                                <a title="vai all'offerta 20-23 Ottobre - Giorni di Relax e SPA" href="#" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                                <a title="vai all'offerta 20-23 Ottobre - Giorni di Relax e SPA" href="#" aria-label="vai all'offerta 20-23 Ottobre - Giorni di Relax e SPA" role="button" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
                             </div>
                         </li>
                     </ul>
-                    <a title="vai alla pagina offerte" href="#" role="button" class="btn content-offers__cta">Scopri tutte le offerte</a>
+                    <a title="vai alla pagina offerte" href="#" aria-label="vai a tutte le offerte" role="button" class="btn content-offers__cta">Scopri tutte le offerte</a>
                 </div>
 
                 <!-- NEWSLETTER -->
@@ -295,7 +295,7 @@
                     <div class="content-newsletter-container">
                         <div class="content-newsletter-container__title h2-title"><h2>Resta in contatto</h2></div>
                         <div class="content-newsletter-container__text text"><p>Iscriviti alla newsletter per ricevere le nostre ultime novità</p></div>
-                        <a title="vai alla pagina newsletter" href="#" role="button" class="btn content-newsletter-container__cta">Iscriviti alla newsletter</a>
+                        <a title="vai alla pagina newsletter" href="#" aria-label="vai alla newsletter" role="button" class="btn content-newsletter-container__cta">Iscriviti alla newsletter</a>
                     </div>
                 </div>
             </section>
@@ -304,21 +304,21 @@
         <div class="action-mobile">
             <ul class="action-mobile-list">
                 <li class="action-mobile-list-item">
-                    <a class="action-mobile-list-item-link" title="chiama" href="#" target="_blank">
+                    <a class="action-mobile-list-item-link" aria-label="chiama" role="button" title="chiama" href="#" target="_blank">
                         <picture>
                             <img src="img/telefono.png" class="action-mobile-list-item-link__img" title="icona del telefono" alt="chiamaci">
                         </picture>
                     </a>
                 </li>
                 <li class="action-mobile-list-item">
-                    <a class="action-mobile-list-item-link" title="prenota" href="#" target="_blank">
+                    <a class="action-mobile-list-item-link" aria-label="orenota" role="button" title="prenota" href="#" target="_blank">
                         <picture>
                             <img src="img/prenota.png" class="action-mobile-list-item-link__img" title="icona del calendario" alt="prenota">
                         </picture>
                     </a>
                 </li>
                 <li class="action-mobile-list-item">
-                    <a class="action-mobile-list-item-link" title="scrivi una email" href="#" target="_blank">
+                    <a class="action-mobile-list-item-link" aria-label="scrivi una email" role="button" title="scrivi una email" href="#" target="_blank">
                         <picture>
                             <img src="img/email.png" class="action-mobile-list-item-link__img" title="icona delle email" alt="scrivici">
                         </picture>
@@ -332,26 +332,26 @@
                 <div class="footer-container">
                     <div class="footer-container-address">
                         Via Vascello, 17 64018 Tortoreto (Te)
-                        <br>Telefono: <a title="chiamaci" href="tel:+390861777325">+39 0861 777325</a> | E-mail: <a title="contattaci via email" href="mailto:info@ilparcosulmare.com">info@ilparcosulmare.com</a>
-                        <br>WhatsApp <a title="scrivici su whatsapp" href="tel:+393468170839">+39 346 8170839</a>
-                        <br><a title="vai alla pagina privacy e cookie policy" href="#" target="_blank">Privacy Policy (Preferenze Cookie)</a> 
+                        <br>Telefono: <a role="button" aria-label="chiama" title="chiamaci" href="tel:+390861777325">+39 0861 777325</a> | E-mail: <a role="button" aria-label="scrivi una email" title="contattaci via email" href="mailto:info@ilparcosulmare.com">info@ilparcosulmare.com</a>
+                        <br>WhatsApp <a title="scrivici su whatsapp" role="button" aria-label="contattaci su whatsapp" href="tel:+393468170839">+39 346 8170839</a>
+                        <br><a role="button" aria-label="visualizza la privacy e cookie policy" title="vai alla pagina privacy e cookie policy" href="#" target="_blank">Privacy Policy (Preferenze Cookie)</a> 
                         <br>P.Iva 01681220677 - CIR 067044ALB0030
                     </div>
                     <div class="footer-container-social">
                         <div class="footer-container-social__title">Seguici su:</div>
                         <ul class="footer-container-social-list">
                             <li class="footer-container-social-list-item">
-                                <a title="seguici su instagram" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                <a role="button" aria-label="segui su Instagram" title="seguici su instagram" href="#" target="_blank" class="footer-container-social-list-item-link">
                                     <picture><img class="footer-container-social-list-item-link__img" src="img/instagram.png" alt="instagram" title="icona di instagram"></picture>
                                 </a>
                             </li>
                             <li class="footer-container-social-list-item">
-                                <a title="seguici su facebook" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                <a role="button" aria-label="segui su Facebook" title="seguici su facebook" href="#" target="_blank" class="footer-container-social-list-item-link">
                                     <picture><img class="footer-container-social-list-item-link__img" src="img/facebook.png" alt="facebook" title="icona di facebook"></picture>
                                 </a>
                             </li>
                             <li class="footer-container-social-list-item">
-                                <a title="scrvizi su whatsapp" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                <a role="button" aria-label="contatta su Whatsapp" title="scrvizi su whatsapp" href="#" target="_blank" class="footer-container-social-list-item-link">
                                     <picture><img class="footer-container-social-list-item-link__img" src="img/whatsapp.png" alt="whatsapp" title="icona di whatsapp"></picture>
                                 </a>
                             </li>
@@ -362,21 +362,21 @@
             <div class="footer-partner">
                 <ul class="footer-partner-list">
                     <li class="footer-partner-list-item">
-                        <a title="vai al sito web di Mincioni" href="#" class="footer-partner-list-item-link">
+                        <a role="button" aria-label="vai al sito di Mincioni" title="vai al sito web di Mincioni" href="#" class="footer-partner-list-item-link">
                             <picture>
                                 <img src="img/1.png" class="footer-partner-list-item-link__img" alt="mincioni" title="logo di mincioni">
                             </picture>
                         </a>
                     </li>
                     <li class="footer-partner-list-item">
-                        <a title="vai al sito web di Aurora Villini Residenziali Panoramici" href="#" class="footer-partner-list-item-link">
+                        <a role="button" aria-label="vai al sito di Aurora Villini Residenziali Panoramici" title="vai al sito web di Aurora Villini Residenziali Panoramici" href="#" class="footer-partner-list-item-link">
                             <picture>
                                 <img src="img/2.png" class="footer-partner-list-item-link__img" alt="aurora" title="logo di aurora">
                             </picture>
                         </a>
                     </li>
                     <li class="footer-partner-list-item">
-                        <a title="vai al sito web di Diverso Ristorante Invenzioni di Mare" href="#" class="footer-partner-list-item-link">
+                        <a role="button" aria-label="vai al sito di Diverso Ristorante Invenzioni di Mare" title="vai al sito web di Diverso Ristorante Invenzioni di Mare" href="#" class="footer-partner-list-item-link">
                             <picture>
                                 <img src="img/3.png" class="footer-partner-list-item-link__img" alt="diverso" title="logo di diverso">
                             </picture>
