@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Il Parco sul Mare Resort & Spa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Stefania De Gennaro">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="javascript.js"></script>
+
+    </head> 
+
+    <body class="body">
+        <header class="header">
+            <a class="header-logo" title="torna alla pagina iniziale" href="index.html">
+                <picture>
+                    <img class="header-logo__img" src="img/logo.png" title="logo" alt="logo">
+                </picture>
+            </a>
+            <div class="header-lingue">
+                <label title="seleziona la lingua" class="header-lingue__text">Seleziona lingua:</label>
+                <ul class="header-lingue-list">
+                    <li class="header-lingue-list-item">
+                        <a title="vai al sito in lingua italiana" href="#">
+                            <picture>
+                                <img class="header-lingue-list-item__img" src="img/ita.png" alt="italiano" title="italiano">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="header-lingue-list-item">
+                        <a title="go to the website in english" href="#">
+                            <picture>
+                                <img class="header-lingue-list-item__img" src="img/eng.png" alt="inglese" title="inglese">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="header-lingue-list-item">
+                        <a title="gehen Sie zur deutschsprachigen Seite" href="#">
+                            <picture>
+                                <img class="header-lingue-list-item__img" src="img/deu.png" alt="tedesco" title="tedesco">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+
+        <div class="hamburger-menu">
+            <div class="hamburger-menu-bar"></div>
+            <div class="hamburger-menu-bar"></div>
+            <div class="hamburger-menu-bar"></div>
+        </div>
+        
+        <nav class="menu">
+            <div class="menu-container">
+                <ol class="menu-container-list">
+                    <li class="menu-container-list-item"><a title="vai alla pagina iniziale" class="menu-container-list-item__link" target="_self" href="#">Home</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina resort" class="menu-container-list-item__link" target="_self" href="#">Resort</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina servizi" class="menu-container-list-item__link" target="_self" href="#">Servizi</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina camere e suites" class="menu-container-list-item__link" target="_self" href="#">Camere e Suites</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina spa" class="menu-container-list-item__link" target="_self" href="#">Spa</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina meeting" class="menu-container-list-item__link" target="_self" href="#">Meeting</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina dove siamo" class="menu-container-list-item__link" target="_self" href="#">Dove siamo</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina contatti" class="menu-container-list-item__link" target="_self" href="#">Contatti</a></li>
+                    <li class="menu-container-list-item"><a title="vai alla pagina per prenotare" class="menu-container-list-item__link" target="_self" href="#">Prenota</a></li>
+                </ol>
+            </div>
+        </nav>
+
+        <div class="top">
+            <div class="top-photo">
+                <picture>
+                    <img src="img/foto-top.jpg" class="top-photo__img img" alt="Foto il Parco sul Mare Resort & Spa" title="Foto il Parco sul Mare Resort & Spa">
+                </picture>
+            </div>
+            <div class="top__more">  
+                esplora     
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M24 40 8 24l2.1-2.1 12.4 12.4V8h3v26.3l12.4-12.4L40 24Z"/></svg>
+            </div>
+        </div> 
+
+        <section class="content">
+
+            <!-- TITOLO -->
+            <div class="content__title"><h1 class="h1-title">Il Parco sul mare Resort & Spa</h1></div>
+            
+            <!-- RESORT -->
+            <div class="content-box flex">
+                <div class="content-box-photo">
+                    <picture>
+                        <img src="img/resort.jpg" class="content-box-photo__img img" alt="Foto il Resort" title="Foto il Resort">
+                    </picture>
+                </div>
+                <div class="content-box-text">
+                    <div class="content-box-text-cont">
+                        <div class="content-box-text-cont__title"><h2 class="h2-title h2-title-box">Resort</h2></div>
+                        <div class="content-box-text-cont__description text">
+                            <p>
+                                Immaginati già immerso nel panorama abruzzese, colline verdeggianti, il mare Adriatico e un vigneto di Montepulciano, che cresce e matura in operoso silenzio.
+                                Grilli, cavalieri d'Italia e tortore la colonna sonora dei tuoi giorni di relax..
+                                <br><br>
+                                Il Parco sul Mare è il paradiso per chi, come te, vuole staccare la spina dal caos quotidiano e riposare realmente!
+                            </p>
+                        </div>
+                        <a title="vai alla pagina resort" href="#" class="btn content-box-text-cont__cta">Scopri il resort</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SERVIZI -->
+            <div class="content-full">
+                <div class="content-full__title"><h2 class="h2-title h2-title-full">Il Tuo Hotel in collina a Tortoreto con SPA</h2></div>
+                <div class="content-full-photo">
+                    <picture>
+                        <img src="img/servizi.jpg" class="content-full-photo__img img" alt="Foto servizi" title="Foto servizi">
+                    </picture>
+                </div>
+                <a title="vai alla pagina servizi" href="#" class="btn content-full__cta">Scopri tutti i servizi</a>
+            </div>
+
+            <!-- BOX DOPPI -->
+            <div class="content-double">
+                <!-- PISCINA E SOLARIUM -->
+                <div class="content-double-box flex reverse">
+                    <div class="content-double-box-photo">
+                        <picture>
+                            <img src="img/piscina.jpg" class="content-double-box-photo__img img" alt="Foto piscina" title="Foto piscina">
+                        </picture>
+                    </div>
+                    <div class="content-double-box-text">
+                        <div class="content-double-box-text-cont">
+                            <div class="content-double-box-text-cont__title"><h2 class="h2-title h2-title-box">Piscina & Solarium</h2></div>
+                            <div class="content-double-box-text-cont__description text">
+                                <p>
+                                    Rilassati nel nostro solarium, realmente ampio e vista colline.. in una parentesi ideale per chi dopo lo stress del lavoro e della città ha proprio bisogno di una pausa indisturbato..
+                                </p>
+                            </div>
+                            <a title="vai alla pagina piscina" href="#" class="btn content-double-box-text-cont__cta">Scopri la piscina</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- ANTHEA SPA -->
+                <div class="content-double-box flex">
+                    <div class="content-double-box-photo">
+                        <picture>
+                            <img src="img/spa.jpg" class="content-double-box-photo__img img" alt="Foto spa" title="Foto spa">
+                        </picture>
+                    </div>
+                    <div class="content-double-box-text">
+                        <div class="content-double-box-text-cont">
+                            <div class="content-double-box-text-cont__title"><h2 class="h2-title h2-title-box">Anthea Spa</h2></div>
+                            <div class="content-double-box-text-cont__description text">
+                                <p>
+                                    Il luogo ideale dove ascoltare se stessi, il proprio partner, lasciandosi coccolare e curare da mani esperte che hanno a cuore il benessere e il relax degli ospiti.
+                                </p>
+                            </div>
+                            <a title="vai alla pagina spa" href="#" class="btn content-double-box-text-cont__cta">Scopri la spa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CAMERE -->
+            <div class="content-full">
+                <div class="content-full__title"><h2 class="h2-title h2-title-full">Lo spazio adatto ad ogni necessità</h2></div>
+                <div class="content-full-photo">
+                    <picture>
+                        <img src="img/camere.jpg" class="content-full-photo__img img" alt="Foto camere" title="Foto camere">
+                    </picture>
+                </div>
+                <a title="vai alla pagina camere e suites" href="#" class="btn content-full__cta">Scopri tutte le camere</a>
+            </div>
+
+            <!-- BOX DOPPI -->
+            <div class="content-double">
+                <!-- EVENTI E MEETING -->
+                <div class="content-double-box flex">
+                    <div class="content-double-box-photo">
+                        <picture>
+                            <img src="img/meeting.jpg" class="content-double-box-photo__img img" alt="Foto eventi" title="Foto eventi">
+                        </picture>
+                    </div>
+                    <div class="content-double-box-text">
+                        <div class="content-double-box-text-cont">
+                            <div class="content-double-box-text-cont__title"><h2 class="h2-title h2-title-box">Eventi & Meeting</h2></div>
+                            <div class="content-double-box-text-cont__description text">
+                                <p>
+                                    Le nostre sale, diversificate per grandezza e disposizione, sono a completa disposizione per l'organizzazione di convegni, per colazioni di lavoro, per incontri d'affari e conferenze stampa.
+                                </p>
+                            </div>
+                            <a title="vai alla pagina meeting" href="#" class="btn content-double-box-text-cont__cta">Scopri le sale meeting</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- RISTORAZIONE -->
+                <div class="content-double-box flex reverse">
+                    <div class="content-double-box-photo">
+                        <picture>
+                            <img src="img/eventi.jpg" class="content-double-box-photo__img img" alt="Foto ristorazione" title="Foto ristorazione">
+                        </picture>
+                    </div>
+                    <div class="content-double-box-text">
+                        <div class="content-double-box-text-cont">
+                            <div class="content-double-box-text-cont__title"><h2 class="h2-title h2-title-box">Ristorazione</h2></div>
+                            <div class="content-double-box-text-cont__description text">
+                                <p>
+                                    Scopri il nostro ristorante con prodotti del territorio e vini selezionati per farti scoprire l’Abruzzo e la nostra cucina tradizionale. 
+                                </p>
+                            </div>
+                            <a title="vai alla pagina ristorante" href="#" class="btn content-double-box-text-cont__cta">Scopri il ristorante</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HOTEL ACCESSIBILE -->
+            <div class="content-box flex">
+                <div class="content-box-photo">
+                    <picture>
+                        <img src="img/foto-top.jpg" class="content-box-photo__img img" alt="Foto hotel accessibile" title="Foto hotel accessibile">
+                    </picture>
+                </div>
+                <div class="content-box-text">
+                    <div class="content-box-text-cont">
+                        <div class="content-box-text-cont__title"><h2 class="h2-title h2-title-box">Hotel Accessibile</h2></div>
+                        <div class="content-box-text-cont__description text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a title="vai alla pagina servizi" href="#" class="btn content-box-text-cont__cta">Scopri i servizi accessibili</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OFFERTE -->
+            <div class="content-offers">
+                <div class="content-offers__title h2-title"><h2>Prenota alla miglior <br>tariffa garantita</h2></div>
+                <ul class="content-offers-list">
+                    <li class="content-offers-list-item">
+                        <div class="content-offers-list-item-text">
+                            <h3 class="content-offers-list-item-text__title h3-title">REGALA LA SPA</h3>
+                            <div class="text content-offers-list-item-text__description">
+                                <p> 
+                                    Il Tempo per se stessi è il miglior Regalo che si possa fare..
+                                </p>
+                            </div>
+                            <a title="vai all'offerta Regala la spa" href="#" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                        </div>
+                    </li>
+                    <li class="content-offers-list-item">
+                        <div class="content-offers-list-item-text">
+                            <h3 class="content-offers-list-item-text__title h3-title">EXCLUSIVE ROOM</h3>
+                            <div class="text content-offers-list-item-text__description">
+                                <p> 
+                                    Exclusive Room – Il Regalo n.1 per Coppie!
+                                </p>
+                            </div>
+                            <a title="vai all'offerta Exclusive room" href="#" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                        </div>
+                    </li>
+                    <li class="content-offers-list-item">
+                        <div class="content-offers-list-item-text">
+                            <h3 class="content-offers-list-item-text__title h3-title">20-23 Ottobre - Giorni di Relax e SPA</h3>
+                            <div class="text content-offers-list-item-text__description">
+                                <p> 
+                                    Special promo
+                                </p>
+                            </div>
+                            <a title="vai all'offerta 20-23 Ottobre - Giorni di Relax e SPA" href="#" class="btn content-offers-list-item-text__cta">Vai all'offerta</a>
+                        </div>
+                    </li>
+                </ul>
+                <a title="vai alla pagina offerte" href="#" class="btn content-offers__cta">Scopri tutte le offerte</a>
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="content-newsletter">
+                <div class="content-newsletter-container">
+                    <div class="content-newsletter-container__title h2-title"><h2>Resta in contatto</h2></div>
+                    <div class="content-newsletter-container__text text"><p>Iscriviti alla newsletter per ricevere le nostre ultime novità</p></div>
+                    <a title="vai alla pagina newsletter" href="#" class="btn content-newsletter-container__cta">Iscriviti alla newsletter</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="action-mobile">
+            <ul class="action-mobile-list">
+                <li class="action-mobile-list-item">
+                    <a class="action-mobile-list-item-link" title="chiama" href="#" target="_blank">
+                        <picture>
+                            <img src="img/telefono.png" class="action-mobile-list-item-link__img" title="icona-telefono" alt="icona-telefono">
+                        </picture>
+                    </a>
+                </li>
+                <li class="action-mobile-list-item">
+                    <a class="action-mobile-list-item-link" title="prenota" href="#" target="_blank">
+                        <picture>
+                            <img src="img/prenota.png" class="action-mobile-list-item-link__img" title="icona-calendario" alt="icona-calendario">
+                        </picture>
+                    </a>
+                </li>
+                <li class="action-mobile-list-item">
+                    <a class="action-mobile-list-item-link" title="scrivi una email" href="#" target="_blank">
+                        <picture>
+                            <img src="img/email.png" class="action-mobile-list-item-link__img" title="icona-email" alt="icona-email">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </div>
+       
+        <footer>
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="footer-container-address">
+                        Via Vascello, 17 64018 Tortoreto (Te)
+                        <br>Telefono: <a title="chiamaci" href="tel:+390861777325">+39 0861 777325</a> | E-mail: <a title="contattaci via email" href="mailto:info@ilparcosulmare.com">info@ilparcosulmare.com</a>
+                        <br>WhatsApp <a title="scrivici su whatsapp" href="tel:+393468170839">+39 346 8170839</a>
+                        <br><a title="vai alla pagina privacy e cookie policy" href="#" target="_blank">Privacy Policy (Preferenze Cookie)</a> 
+                        <br>P.Iva 01681220677 - CIR 067044ALB0030
+                    </div>
+                    <div class="footer-container-social">
+                        <div class="footer-container-social__title">Seguici su:</div>
+                        <ul class="footer-container-social-list">
+                            <li class="footer-container-social-list-item">
+                                <a title="seguici su instagram" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                    <picture><img class="footer-container-social-list-item-link__img" src="img/instagram.png" alt="icona-instagram" title="icona-instagram"></picture>
+                                </a>
+                            </li>
+                            <li class="footer-container-social-list-item">
+                                <a title="seguici su facebook" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                    <picture><img class="footer-container-social-list-item-link__img" src="img/facebook.png" alt="icona-facebook" title="icona-facebook"></picture>
+                                </a>
+                            </li>
+                            <li class="footer-container-social-list-item">
+                                <a title="scrvizi su whatsapp" href="#" target="_blank" class="footer-container-social-list-item-link">
+                                    <picture><img class="footer-container-social-list-item-link__img" src="img/whatsapp.png" alt="icona-whatsapp" title="icona-whatsapp"></picture>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>      
+            </div>
+            <div class="footer-partner">
+                <ul class="footer-partner-list">
+                    <li class="footer-partner-list-item">
+                        <a title="vai al sito web di Mincioni" href="#" class="footer-partner-list-item-link">
+                            <picture>
+                                <img src="img/1.png" class="footer-partner-list-item-link__img" alt="logo-mincioni" title="logo-mincioni">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="footer-partner-list-item">
+                        <a title="vai al sito web di Aurora Villini Residenziali Panoramici" href="#" class="footer-partner-list-item-link">
+                            <picture>
+                                <img src="img/2.png" class="footer-partner-list-item-link__img" alt="logo-aurora" title="logo-aurora">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="footer-partner-list-item">
+                        <a title="vai al sito web di Diverso Ristorante Invenzioni di Mare" href="#" class="footer-partner-list-item-link">
+                            <picture>
+                                <img src="img/3.png" class="footer-partner-list-item-link__img" alt="logo-diverso" title="logo-diverso">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
